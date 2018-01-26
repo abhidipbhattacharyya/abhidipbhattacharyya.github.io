@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title> Phone book app</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel ="stylesheet" href = "phone.css">
+    </head>
+    <body>
+        <div class = "tab_bar">
+            <button class="dialer" id = "dialer">Dialer</button>
+            <button class="contact" id ="contact">Contact</button>
+            <button class="addContact" id = "addContact">Add Contact</button>
+        </div>
+        <div class = "content" id = "content">
+            <div class="content_dialer" id = "content_dialer">
+                <h1>Dialer</h1>
+                <form>
+
+                    <input type="text" name="dialer"><br>
+                    <table class = "dialer1">
+                          <tr>
+                            <td><button class="pure-button pure-button-primary" id = "one">1</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "two">2</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "three">3</button></td>
+                          </tr>
+                          <tr>
+                            <td><button class="pure-button pure-button-primary" id = "four">4</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "five">5</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "six">6</button></td>
+                          </tr>
+                          <tr>
+                            <td><button class="pure-button pure-button-primary" id = "seven">7</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "eight">8</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "nine">9</button></td>
+                          </tr>
+                          <tr>
+                            <td><button class="pure-button pure-button-primary" id = "star">*</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "zero">0</button></td>
+                            <td><button class="pure-button pure-button-primary" id = "hash">#   </button></td>
+                          </tr>
+                    </table>
+                    <table class="dialer2">
+                          <tr>
+                            <td><button class="dial" id = "dial">dial</button></td>
+                            <td> </td>
+                            <td><button class="clear" id = "clear">clear</button></td>
+                          </tr>
+                    </table>
+                </form>
+            </div>
+            <div class = "content_contact" id = "content_contact">
+                <h1>Contacts</h1>
+                <table class="contacts">
+                    <tr>
+                        <td><button class="rahul" id="rahul">Rahul Chowdhury</td>
+                        <td><button class="abhidip" id="abhidip">Abhidip Bhattacharyya</td>
+                        <td><button class="subhadip" id="subhadip">Subhadip Bhattacharyya</td>
+                    </tr>
+                    <tr>
+                        <td><button class="rd" id="rd">Robert Drake</td>
+                        <td><button class="ef" id="ef">Emma Forst</td>
+                        <td><button class="dg" id="dg">Doreen Green</td>
+                    </tr>
+                    <tr>
+                        <td><button class="jg" id="jg">Jean Gray</td>
+                        <td><button class="jh" id="jh">James Howllett</td>
+                        <td><button class="om" id="dg">Ororo Munroe</td>
+                    </tr>
+                </table>
+            </div>
+            <div class = "content_add" id = "content_add">
+                <h1> Add Contact</h1>
+                <form class="pure-form pure-form-stacked">
+                    <label for="name">Name</label>
+	                <input id="name" placeholder="Jane Smith">
+                </form>
+                <form class="pure-form pure-form-stacked">
+                    <label for="number">Number</label>
+	                <input id="number" placeholder="720-240-1142">
+                </form>
+                <form class="pure-form pure-form-stacked">
+                    <label for="email">Email</label>
+	                <input id="email" placeholder="JaneSmith@xxyz.com">
+                </form>
+                <table>
+                    <tr>
+                        <td><button class="add_contact" id = "add_contact">Add Contact</button></td>
+                        <td><button class="clear_contact" id = "clear">clear</button></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src= "phone.js"></script>
+    </body>
+</html>
