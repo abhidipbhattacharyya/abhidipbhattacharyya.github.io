@@ -1,0 +1,97 @@
+.content .content_dialer .dialer1 td
+{
+    padding:5px 5px 5px 5px;
+}
+.tab_bar
+{
+    background-color: #e7e7e7;
+}
+.content .content_dialer .dialer2 td
+{
+    padding:5px 5px 5px 5px;
+}
+.content .content_dialer .dialer1 button{
+    background-color: #e7e7e7;
+    color: black; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.content .content_contact .contacts button{
+    background-color: #e7e7e7;
+    color: black; /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+
+}
+.content .content_contact .contacts td
+{
+    padding:2px 2px 2px 2px;
+}
+.content .content_add .add_contact{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.content .content_add .clear_contact{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.content .content_dialer .dial_clear
+{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.content .content_dialer .dial
+{
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.content .content_gesture .gesture_area
+{
+    background-color: #e7e7e7;
+    height:300px;
+    width: 300px;
+    color: black; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    border-style: solid;
+}
+.swipe
+{
+    background-color: #e7e7e7;
+    height:100px;
+    width: 300px;
+    color: black; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    border-style: solid;
+}
