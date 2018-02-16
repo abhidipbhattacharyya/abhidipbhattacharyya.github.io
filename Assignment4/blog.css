@@ -9,13 +9,13 @@
     display: none
 }
 
-.content .Feedback .Name{
+.content .Feedback .FullName{
     margin-bottom: .5cm;
 }
-.content .Feedback .Emailid{
+.content .Feedback .Email{
     margin-bottom: .5cm;
 }
-.content .Feedback .Comment{
+.content .Feedback .YourComment{
     margin-bottom: .5cm;
 }
 .content .Feedback button{
