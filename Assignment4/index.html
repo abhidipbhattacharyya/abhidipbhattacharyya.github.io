@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <title> Blog Post</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel ="stylesheet" href = "blog.css">
+    </head>
+    <body>
+        <div class = "navigation" role="navigation">
+            <h1> Site Map </h1>
+
+            <ul>
+                <li> <a id ="home1" href = "#">Home</a> </li>
+                <li> <a id ="archive" href = "#"> Archive </a> </li>
+                <li> <a id ="about" href = "#">  About my blog </a></li>
+            </ul>
+        </div>
+        <div class = "content" role="presentation">
+            <div class = "section1" role="Contentinfo">
+                <h1 role="heading"> section1 Heading </h1>
+                <div class = "subsec1">
+                    <h2> section1.2 Heading </h2>
+                </div>
+            </div>
+            <div class = "section2" role="Contentinfo">
+                <h1 role="heading"> section2 Heading </h1>
+                <div class = "subsec21">
+                    <h2> section2.1 Heading </h2>
+                    <img
+                        alt=" Abhidip with his wife in a train from denver airport to union station"
+                        src="abhi_pubali.jpg"
+                    />
+
+                </div>
+            </div>
+            <div class = "Feedback" role="Contentinfo">
+                <h1> Your Comments </h1>
+                <div class = "hiddenAlert" id = "hiddenAlert" role = "alert">
+                    Alert: Form can not be submitted right now
+                </div>
+                <div class="Name">
+                     <label for="name"> Name: </label>
+                    <input id = "name_">
+                </div>
+                <div class="Emailid">
+                    <label for="emailid"> EmailID: </label>
+                    <input id ="emailid_">
+                </div>
+                <div class="Comment">
+                    <label for="comments">Comments:</label>
+                    <input id = "comment_">
+                </div>
+                <button class = "submit" id ="submit"> Submit your comment </button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src= "blog.js"></script>
+    </body>
+
+
+</html>
