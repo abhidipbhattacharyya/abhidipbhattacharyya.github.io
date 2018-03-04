@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <title> Phone book app Lowvision</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel ="stylesheet" href = "phone_Large.css">
+    </head>
+    <body>
+        <div class = "tab_bar">
+            <button class="dialer" id = "dialer">Dialer</button>
+            <button class="contact" id ="contact">Contact</button>
+            <button class="addContact" id = "addContact">Add Contact</button>
+            <button class="testGesture" id = "testGesture"> Test Gesture </button>
+            <button class="about" id = "about"> About </button>
+        </div>
+        <div class = "content" id = "content">
+            <div class="content_dialer" id = "content_dialer">
+                <h1>Dialer</h1>
+                    <input type="text" id = "num_field" name="num_field"><br>
+                    <table class = "dialer1">
+                          <tr>
+                            <td><button class="one" id = "one">1</button></td>
+                            <td><button class="two" id = "two">2</button></td>
+                            <td><button class="three" id = "three">3</button></td>
+                          </tr>
+                          <tr>
+                            <td><button class="four" id = "four">4</button></td>
+                            <td><button class="five" id = "five">5</button></td>
+                            <td><button class="six" id = "six">6</button></td>
+                          </tr>
+                          <tr>
+                            <td><button class="seven" id = "seven">7</button></td>
+                            <td><button class="eight" id = "eight">8</button></td>
+                            <td><button class="nine" id = "nine">9</button></td>
+                          </tr>
+                          <tr>
+                            <td><button class="star" id = "star">*</button></td>
+                            <td><button class="zero" id = "zero">0</button></td>
+                            <td><button class="hash" id = "hash">#   </button></td>
+                          </tr>
+                    </table>
+                    <table class="dialer2">
+                          <tr>
+                            <td><button class="dial" id = "dial">dial</button></td>
+                            <td> </td>
+                            <td><button class="dial_clear" id = "dial_clear">clear</button></td>
+                          </tr>
+                    </table>
+                    <h4> swipe here to change tab</h4>
+                    <div class="swipe" id ="swipe_dialer">
+                    </div>
+
+            </div>
+            <div class = "content_contact" id = "content_contact">
+                <h1>Contacts</h1>
+                <table class="contacts">
+                    <tr>
+                        <td><button class="rahul" id="rahul">Rahul Chowdhury</td>
+                        <td><button class="abhidip" id="abhidip">Abhidip Bhattacharyya</td>
+                        <td><button class="subhadip" id="subhadip">Subhadip Bhattacharyya</td>
+                    </tr>
+                    <tr>
+                        <td><button class="rd" id="rd">Robert Drake</td>
+                        <td><button class="ef" id="ef">Emma Forst</td>
+                        <td><button class="dg" id="dg">Doreen Green</td>
+                    </tr>
+                    <tr>
+                        <td><button class="jg" id="jg">Jean Gray</td>
+                        <td><button class="jh" id="jh">James Howllett</td>
+                        <td><button class="om" id="dg">Ororo Munroe</td>
+                    </tr>
+                </table>
+                <h4> swipe to change tab</h4>
+                <div class="swipe" id ="swipe_contact">
+                </div>
+            </div>
+            <div class = "content_add" id = "content_add">
+                <h1> Add Contact</h1>
+                <form class="pure-form pure-form-stacked">
+                    <label for="name">Name</label>
+	                <input id="name" placeholder="Jane Smith">
+                </form>
+                <form class="pure-form pure-form-stacked">
+                    <label for="number">Number</label>
+	                <input id="number" placeholder="720-240-1142">
+                </form>
+                <form class="pure-form pure-form-stacked">
+                    <label for="email">Email</label>
+	                <input id="email" placeholder="JaneSmith@xxyz.com">
+                </form>
+                <table>
+                    <tr>
+                        <td><button class="add_contact" id = "add_contact">Add Contact</button></td>
+                        <td><button class="clear_contact" id = "clear_contact">clear</button></td>
+                    </tr>
+                </table>
+                <h4> swipe to change tab</h4>
+                <div class="swipe" id ="swipe_add">
+                </div>
+            </div>
+            <div class = "content_gesture" id = "content_gesture">
+                <h1> Gesture Are</h1>
+                <input id = "gesture_output" name="gesture_output"><br><br>
+                <div class = "gesture_area" id = "gesture_area">
+                </div>
+                <h4> swipe to change tab</h4>
+                <div class="swipe" id ="swipe_gesture">
+                </div>
+            </div>
+            <div class = "content_about" id = "content_about">
+                <h1> About</h1>
+                <h2> Magnifier </h2>
+                I am using an Apple macbook. Hence to magnify screen I have used the  "zoom" functionality provided by apple. How to use this facility can base
+                found <a id ="lv" href = "https://mcmw.abilitynet.org.uk/apple-os-x-10-10-yosemite-magnifying-the-screen/">here</a>. I think it is a
+                nice tool for helping people with visual impairments. But i think this system has following limitations
+                <ul>
+                    <li>
+                        <p> The system is limited by the capabities of the web site. For example here I am giving an image from newyork times. In normal vision an
+                        image is almost clear. Now when I used the zoom on the image the image get pixelated. This is actually because the image is of very low quality.
+                        Hence using magnifier is not that helpful in this case. For example in this case I can not really see the face of the man pelting snow ball.</p>
+                        <img alt=" screen shot of newyork times with no magnifier"
+                            style="float: left; width: 45%; margin-right: 5%; margin-bottom: 0.5em;"
+                            src="NY2.png" />
+                        <img alt=" screen shot of newyork times with magnifier"
+                            style="float: left; width: 45%; margin-right: 5%; margin-bottom: 0.5em;"
+                            src="NY1.png"/>
+                        <p style="clear: both;">
+                    </li>
+                    <li>
+                        <p> No text wrapping. I am not sure who should take care of this part- websites designer or the magnifier software developers. No wrapping
+                        of screen makes the user scroll horizontally the screen. This is super inconvanient as per me.</p>
+                        <img alt=" screen shot of facebook timeline with no magnifier"
+                            style="float: left; width: 45%; margin-right: 5%; margin-bottom: 0.5em;"
+                            src="FB2.png" />
+                        <img alt=" screen shot of facebook timeline with magnifier"
+                            style="float: left; width: 45%; margin-right: 5%; margin-bottom: 0.5em;"
+                            src="FB1.png"/>
+                        <p style="clear: both;">
+                    </li>
+                <li>
+                    <p> The left image is with magnifier this time. I just clicked the "add to cart button". And then the screen became gray with inactivating
+                    all elements. I really had no idea what was going on untill I off the magnifier. So the appearence of alert box/ dialog box is with respet to the
+                   web page. It should be relative to the user focus on the page. </p>
+                    <img alt="screen shot of amazon timeline with magnifier"
+                        style="float: left; width: 45%; margin-right: 5%; margin-bottom: 0.5em;"
+                        src="AMA1.png" />
+                    <img alt=" screen shot of amazon timeline with no magnifier"
+                        style="float: left; width: 45%; margin-right: 5%; margin-bottom: 0.5em;"
+                        src="AMA2.png"/>
+                    <p style="clear: both;">
+
+                </li>
+            </ul>
+            <h2> What would I prefer</h2>
+                <p>It will be really helpful instead of magnifing the whole screen if it magnifies the particular area where the user is focusing.
+                So user can have an idea about the over all webpage while focusing on a particular portion. Moreover if the text can be wrapped in the
+                magnified window the content will be more readable.</p>
+                <p> For magnifing images I would say - amazon website has nice implementation of magification for product images. So when user hover over the image
+                    it magnifies the product image and the whole image is contained in a single window. No need to scroll horizontally to see the images. However it
+                may depend on the visual capabities of the users. </p>
+
+            <h2> What have I done for this assignment </h2>
+                <ul>
+                    <li> I have created a sepate site for low vision.</li>
+                    <li> I have made the background black and foreground either white or yellow to give sufficient contrast. </li>
+                    <li> Fot buttons and text box I made the opposite. So the main background is black, buttons' background is white-ish but text is black.
+                        That makes the button and text box noticable and readable.</li>
+                    <li> Font-size of text has been increased to make it more readable.</li>
+
+                </ul>
+                <h4> swipe to change tab</h4>
+                <div class="swipe" id ="swipe_about">
+                </div>
+            </div>
+        </div>
+        <div class = "lowvision" id = "lowvision">
+            <a id ="lv" href = "index.html">Normal vision version</a>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src= "phone_Large.js"></script>
+    </body>
+</html>
