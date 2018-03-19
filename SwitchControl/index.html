@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>This is a basic calculator app. You can click buttons to perform calculations. However it has some special features. Kindly read the instructions before use.</p>
+				<h3>Instructions for using the app</h3>
+				It has following modes for work
+				<ul>
+					<li> <b>Basic Mode-</b> In this mode user can select any button and click it using mouse. Or user can select the text area. Once the cursor is
+					at the text area user can give numbers from keyboard. </li>
+					<li><b>Arrow Key and Enter-</b> User can use any of the arrow keys (left or right) and enter key of the physical key board of their computer to operate the calculator. For example only right arrow and enter.
+					 Selection will start from 7. On pressing right arrow selection will move right of the current seletion. If the current seletion is at end of a row upon pressing right arrow selection will move to the next row. To click a button hit enter.
+				  	Similarly using only left key user can navigate all the buttons.
+					 <p>However using up/ down arrow user can navigate only in a particular column of the buttons.</p>
+					 <p> Arrow keys functionality gives the calculator multiple modalities. For example-
+						 <ol>
+							 <li> <i>Two keys</i>- User can use only right (left) arrow and enter to use this calculator</li>
+							 <li> <i>Three Keys</i>- User can use right (left) arrow, enter and any other arrow keys(up, down, left) to use this calculator</li>
+							 <li> <i>Four Keys</i>- User can use right key, left key, enter key and any of the other directional key(up, down) to navigate this calculator</li>
+							 <li> <i>Five Keys</i>- User can user all the four arrow keys and enter to naviagate this calculator.
+						 </ol>
+				</li>
+				<li> <b> Automatic Scanning (One Key Mode)</b>- In this mode user can use only one key Enter to click the button. The system will automatically
+				naviagete through buttons. User just need to hit enter when the desired button is selected. To start automatic scanning mode press 'S' in your keyboard. To stop
+				automatic scanning press 'S' again. User can use any of the arrow keys during automatic scanning.
+				</li>
+				</ul>
+				<h3>Test results</h3>
+				<h3>Anything else you have tried out</h3>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
