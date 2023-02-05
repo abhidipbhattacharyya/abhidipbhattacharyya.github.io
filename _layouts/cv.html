@@ -9,7 +9,9 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
+          {% if page.cv_disp != true %}
           <article>
+
             <div class="cv">
               {% for entry in site.data.cv %}
                 <div class="card mt-3 p-3">
@@ -30,6 +32,14 @@ layout: default
                 </div>
               {% endfor %}
               </div>
+
           </article>
+          {% else %}
+          <div class="container mt-5">
+            <iframe class="card mt-3 p-3" src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"></iframe>
+          </div>
+
+          {% endif %}
+
 
         </div>
