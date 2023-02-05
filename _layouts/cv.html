@@ -35,8 +35,8 @@ layout: default
 
           </article>
           {% else %}
-          <div class="container mt-5">
-            <iframe class="card mt-3 p-3" src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"></iframe>
+          <div class="embed-responsive embed-responsive-1by1">
+            <iframe class="embed-responsive-item" src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"></iframe>
           </div>
 
           {% endif %}
