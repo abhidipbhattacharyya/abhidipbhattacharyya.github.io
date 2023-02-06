@@ -8,7 +8,7 @@ nav_order:
 display_categories: [watercolor, charcoal, pastel]
 horizontal: false
 ---
-
+In a parallel universe my doppelganger must be a painter. I love painting. It is one of my favorite hobby. I presented my art work at Computer Science [Cross Cultural Celebration, 2022](https://www.colorado.edu/cs/cross-cultural-celebration-2022). As a part of [Boulder Art Association](https://boulderartassociation.org/) my drawings have been displayed at member shows at [R gallery and Wine Bar](https://rgallery.art/collections/boulder-arts-association-winter-member-exhibit).
 <!-- pages/drawings.md -->
 <div class="drawings">
 {%- if site.enable_drawing_categories and page.display_categories %}
