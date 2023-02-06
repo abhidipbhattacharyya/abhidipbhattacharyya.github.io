@@ -1,7 +1,7 @@
 ---
 layout: page
-title: humans
-description: free flow of emotions
+title: emotions
+description: Free flow of colors
 img: assets/img/arts/human/monk2.jpg
 importance: 1
 category: watercolor
