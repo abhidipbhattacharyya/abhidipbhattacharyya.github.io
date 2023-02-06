@@ -5,8 +5,8 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: drawing
-      permalink: /publications/
+    - title: art works
+      permalink: /drawings/
     - title: divider
     - title: projects
       permalink: /projects/
