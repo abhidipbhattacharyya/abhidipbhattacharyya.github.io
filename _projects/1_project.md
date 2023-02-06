@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Semantics of vision
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/projects/img_srl_b4.png
 importance: 1
-category: work
+category: current
 ---
 
 Every project has a beautiful feature showcase page.

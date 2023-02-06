@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: blind optics
 description: another without an image
-img:
-importance: 3
-category: fun
+img: assets/img/projects/blindoptics.jpg
+importance: 2
+category: past
 ---
 
 Every project has a beautiful feature showcase page.
