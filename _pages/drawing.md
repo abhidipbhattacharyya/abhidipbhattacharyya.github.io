@@ -1,6 +1,6 @@
 ---
 layout: page
-title: art works
+title: Art Works
 permalink: /drawings/
 description: A growing collection of my cool art works.
 nav: false

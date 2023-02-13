@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Graduate Student, <a href='https://www.colorado.edu/lab/clear/'>CLEAR</a>, <a href='https://www.colorado.edu/lab/clear/nlp-cu-boulder'>CU Boulder</a>
 
