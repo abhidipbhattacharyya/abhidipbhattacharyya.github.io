@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I enjoy teaching and communication with students. At CU Boulder I actively take part in teaching. I involed in pedagogy in with role. Here is a brief summary of my teaching.
+description: I enjoy teaching and communicating with students. At CU Boulder I actively take part in teaching. I involed in pedagogy in different role. Here is a brief summary of my teaching experiences.
 nav: true
 nav_order: 6
 ---
@@ -12,7 +12,7 @@ nav_order: 6
 
 ### **Teaching Assistant**
 - **Gradute level**
-    - Advance Algorithm (CSCI 5654), CU Boulder: Spring 2023
+    - Advanced Algorithm (CSCI 5654), CU Boulder: Spring 2023
     - Advanced Data Structure (CSCI 7000), CU Boulder: Fall 2022
     - Linear and Integer Programming (CSCI 5454), CU Boulder: Spring 2022
 - **Under-gradute level**
