@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: I enjoy teaching and communicating with students. At CU Boulder I actively take part in teaching. I am involed in pedagogy in different role. Here is a brief summary of my teaching experiences.
+description: I enjoy teaching and communicating with students. At CU Boulder I actively take part in teaching. I am involed with pedagogy in different role. Here is a brief summary of my teaching experiences.
 nav: true
 nav_order: 6
 ---
