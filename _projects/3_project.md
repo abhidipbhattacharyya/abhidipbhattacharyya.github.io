@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bussiness Rule Mining
-description: a project that redirects to another website
+description: This page is under construction
 img: assets/img/projects/br2.png
 importance: 1
 category: past

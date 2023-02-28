@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Semantics of vision
-description: a project with a background image
+description: This page is under construction
 img: assets/img/projects/img_srl_b4.png
 importance: 1
 category: current

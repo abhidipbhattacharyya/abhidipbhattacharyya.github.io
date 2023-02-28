@@ -1,7 +1,7 @@
 ---
 layout: page
 title: blind optics
-description: another without an image
+description: This page is under construction
 img: assets/img/projects/blindoptics.jpg
 importance: 2
 category: past
