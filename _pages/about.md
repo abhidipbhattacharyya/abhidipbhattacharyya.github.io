@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: Graduate Student, <a href='https://www.colorado.edu/lab/clear/'>CLEAR</a>, <a href='https://www.colorado.edu/lab/clear/nlp-cu-boulder'>CU Boulder</a>
+subtitle: Graduate Student, <a href='https://www.colorado.edu/cs/'>Department of Computer Science</a>, <a href='https://www.colorado.edu/lab/clear/nlp-cu-boulder'>CU Boulder</a>
 
 profile:
   align: right
   image: abhidip.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Computational Language and Education Research</p>
-    <p>LBB 126, 1500 Central Campus Mall</p>
+    <p>Department of Computer Science</p>
+    <p>Computational Language and Education Research, LBB 126, 1500 Central Campus Mall</p>
     <p>Boulder, CO 80303</p>
 
 news: true  # includes a list of news items
@@ -23,4 +23,4 @@ Prior to my PhD I worked at TATA Resrach, Development and Design Center on extra
 
 My research interests includes Machine Learning, Deep Neural Network, Computer Vision, Computational Linguistic.
 
-I pursue [painting and drawing](/drawings/) and photography as my main hobbies. 
+I pursue [painting and drawing](/drawings/) and photography as my main hobbies.
