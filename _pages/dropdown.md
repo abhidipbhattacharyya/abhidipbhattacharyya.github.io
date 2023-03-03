@@ -8,6 +8,6 @@ children:
     - title: Art Works
       permalink: /drawings/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    #- title: projects
+     # permalink: /projects/
 ---
