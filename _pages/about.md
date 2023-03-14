@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>Department of Computer Science</p>
-    <p>Computational Language and Education Research, LBB 126, 1500 Central Campus Mall</p>
+    <p>CLEAR, LBB 126, 1500 Central Campus Mall</p>
     <p>Boulder, CO 80303</p>
 
 news: true  # includes a list of news items
