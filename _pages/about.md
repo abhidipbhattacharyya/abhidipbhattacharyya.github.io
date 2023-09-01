@@ -23,6 +23,6 @@ Before joining UMass, I earned my PhD in Computer science and Cognitive Science 
 
 Prior to my PhD I worked at TATA Resrach, Development and Design Center on extracting and formalizing bussiness rules from bussiness documents. I recieved my masters from Indian Statistical Institute, Kolkata.
 
-My research interests includes Machine Learning, Deep Neural Network, Computer Vision, Computational Linguistics.
+I am interested in  Machine Learning, Deep Neural Network, Computer Vision, Computational Linguistics.
 
 I pursue [painting and drawing](/drawings/) and photography as my main hobbies.
