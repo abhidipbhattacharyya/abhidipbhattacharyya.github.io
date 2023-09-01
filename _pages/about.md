@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a post-doc at [CICS at University of Massachusetts Amherst](https://www.cics.umass.edu/). My research interests include Computer vision and Computational Linguistics with a focus on decoding semantics in Vision and Language. In my research I am exploring how language semantic can help in vision task.
+I am a post-doc at [CICS at University of Massachusetts Amherst](https://www.cics.umass.edu/) working with [Prof. Erik G. Learned-Miller](https://people.cs.umass.edu/~elm/index.html). My research interests include Computer vision and Computational Linguistics with a focus on decoding semantics in Vision and Language. In my research I am exploring how language semantic can help in vision task.
 
 Before joining UMass, I earned my PhD in Computer science and Cognitive Science from [University of Colorado Boulder](https://www.colorado.edu/cs/). I was advised by [Prof. Martha Palmer](https://www.colorado.edu/faculty/palmer-martha/) and [Prof. Christofer Heckman](http://www.ristoffer.ch/). I was part of [CLEAR](https://www.colorado.edu/lab/clear/).
 
