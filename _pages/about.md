@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Graduate Student, <a href='https://www.colorado.edu/cs/'>Department of Computer Science</a>, <a href='https://www.colorado.edu/lab/clear/nlp-cu-boulder'>CU Boulder</a>
+subtitle: Postdoctoral Research Associate, <a href='https://www.cics.umass.edu/people/bhattacharyya-abhidip'>CICS</a>, <a href='https://abhidipbhattacharyya.github.io/'>Manning College of Information & Computer Sciences</a>
 
 profile:
   align: right
