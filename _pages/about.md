@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Research Associate, <a href='https://www.cics.umass.edu/people/bhattacharyya-abhidip'>CICS</a>, <a href='https://abhidipbhattacharyya.github.io/'>Manning College of Information & Computer Sciences</a>
+subtitle: <a href='https://www.cics.umass.edu/people/bhattacharyya-abhidip'>Postdoctoral Research Associate,</a>, <a href='https://abhidipbhattacharyya.github.io/'>Manning College of Information & Computer Sciences</a>
 
 profile:
   align: right
