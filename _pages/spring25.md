@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teachings25/
+permalink: /spring25/
 title: COMPSCI 390B Harnessing Data Science for Societal Good
 description: This is a project-based course in which students will explore using large-scale datasets and data analysis to address real-world societal problems in domains such as sustainability, health, and work with different techniques of data analysis and processing. Students will address problems of societal or industrial relevance. Each semester, the course will offer one or more real-world datasets and a selection of sample problems and students will define a project based on these datasets to address a real-word problem in a group setting. Students will collaborate in groups for their project. Students will explore modern data processing tools and software systems to build data processing pipelines for their chosen project. Throughout the course, students will be expected to present their project ideas, develop project proposals outlining their implementation plans, and conclude with a final presentation and report submission. This course provides students with the opportunity to integrate their analytical and collaborative skills for real-world problem-solving.  This course counts as a CS Elective toward the CS Major.
 nav: false
