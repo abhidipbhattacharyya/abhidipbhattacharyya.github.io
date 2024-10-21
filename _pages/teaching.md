@@ -10,6 +10,7 @@ nav_order: 6
 - Natural Language Processing (CSCI 3832), CU Boulder: Spring 2021
 - Data Structure (CSCI 2270), CU Boulder: Summer 2022, Summer 2023
 - [COMPSCI 390B Harnessing Data Science for Societal Good, UMass Spring 2024](/teachings24/)
+- [COMPSCI 390B Harnessing Data Science for Societal Good, UMass Spring 2024](/teachings25/)
 
 ### **Teaching Assistant**
 - **Gradute level**
