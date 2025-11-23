@@ -160,13 +160,25 @@ bibtex_show={true},
     pdf = "https://aclanthology.org/2024.lrec-main.1191.pdf",
     preview={recap.png}
 }
-@inproceedings{bhattacharyya-etal-2025-amr,
-    bibtex_show={true},
-    year = "2025",
-    title = "One More Modality: Does Abstract Meaning Representation Benefit VQA?",
+@inproceedings{bhattacharyya-etal-2025-one,
+    title = "One More Modality: Does {A}bstract {M}eaning {R}epresentation Benefit Visual Question Answering?",
     author = "Bhattacharyya, Abhidip  and
-    Markle, Emma  and
-    Wein, Shira",
-    booktitle= " Accepted at findings of EMNLP",
+      Markle, Emma  and
+      Wein, Shira",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.82/",
+    doi = "10.18653/v1/2025.findings-emnlp.82",
+    pages = "1560--1572",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Visual Question Answering (VQA) requires a vision-language model to reason over both visual and textual inputs to answer questions about images. In this work, we investigate whether incorporating explicit semantic information, in the form of Abstract Meaning Representation (AMR) graphs, can enhance model performance{---}particularly in low-resource settings where training data is limited. We augment two vision-language models, LXMERT and BLIP-2, with sentence- and document-level AMRs and evaluate their performance under both full and reduced training data conditions. Our findings show that in well-resourced settings, models (in particular the smaller LXMERT) are negatively impacted by incorporating AMR without specialized training. However, in low-resource settings, AMR proves beneficial: LXMERT achieves up to a 13.1{\%} relative gain using sentence-level AMRs. These results suggest that while addition of AMR can lower the performance in some settings, in a low-resource setting AMR can serve as a useful semantic prior, especially for lower-capacity models trained on limited data.",
+    pdf= "https://aclanthology.org/2025.findings-emnlp.82.pdf",
     preview={intro_amr.png}
 }
