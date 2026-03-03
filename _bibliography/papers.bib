@@ -100,7 +100,7 @@ bibtex_show={true},
     abstract = "As vision processing and natural language processing continue to advance, there is increasing interest in multimodal applications, such as image retrieval, caption generation, and human-robot interaction. These tasks require close alignment between the information in the images and text. In this paper, we present a new multimodal dataset that combines state of the art semantic annotation for language with the bounding boxes of corresponding images. This richer multimodal labeling supports cross-modal inference for applications in which such alignment is useful. Our semantic representations, developed in the natural language processing community, abstract away from the surface structure of the sentence, focusing on specific actions and the roles of their participants, a level that is equally relevant to images. We then utilize these representations in the form of semantic role labels in the captions and the images and demonstrate improvements in standard tasks such as image retrieval. The potential contributions of these additional labels is evaluated using a role-aware retrieval system based on graph convolutional and recurrent neural networks. The addition of semantic roles into this system provides a significant increase in capability and greater flexibility for these tasks, and could be extended to state-of-the-art techniques relying on transformers with larger amounts of annotated data.",
     preview={man_gun.png},
     pdf = {paper/2022.lrec-1.528.pdf},
-    selected={true}
+
 }
 
 @inproceedings{crapes,
@@ -158,7 +158,8 @@ bibtex_show={true},
     pages = "13633--13649",
     abstract = "Even though current vision language (V+L) models have achieved success in generating image captions, they often lack specificity and overlook various aspects of the image. Additionally, the attention learned through weak supervision operates opaquely and is difficult to control. To address these limitations, we propose the use of semantic roles as control signals in caption generation. Our hypothesis is that, by incorporating semantic roles as signals, the generated captions can be guided to follow specific predicate argument structures. To validate the effectiveness of our approach, we conducted experiments using data and compared the results with a baseline model VL-BART(CITATION). The experiments showed a significant improvement, with a gain of 45{\%} in Smatch score (Standard NLP evaluation metric for semantic representations), demonstrating the efficacy of our approach. By focusing on specific objects and their associated semantic roles instead of providing a general description, our framework produces captions that exhibit enhanced quality, diversity, and controllability.",
     pdf = "https://aclanthology.org/2024.lrec-main.1191.pdf",
-    preview={recap.png}
+    preview={recap.png},
+    selected={true}
 }
 @inproceedings{bhattacharyya-etal-2025-one,
     title = "One More Modality: Does {A}bstract {M}eaning {R}epresentation Benefit Visual Question Answering?",
@@ -180,5 +181,6 @@ bibtex_show={true},
     ISBN = "979-8-89176-335-7",
     abstract = "Visual Question Answering (VQA) requires a vision-language model to reason over both visual and textual inputs to answer questions about images. In this work, we investigate whether incorporating explicit semantic information, in the form of Abstract Meaning Representation (AMR) graphs, can enhance model performance{---}particularly in low-resource settings where training data is limited. We augment two vision-language models, LXMERT and BLIP-2, with sentence- and document-level AMRs and evaluate their performance under both full and reduced training data conditions. Our findings show that in well-resourced settings, models (in particular the smaller LXMERT) are negatively impacted by incorporating AMR without specialized training. However, in low-resource settings, AMR proves beneficial: LXMERT achieves up to a 13.1{\%} relative gain using sentence-level AMRs. These results suggest that while addition of AMR can lower the performance in some settings, in a low-resource setting AMR can serve as a useful semantic prior, especially for lower-capacity models trained on limited data.",
     pdf= "https://aclanthology.org/2025.findings-emnlp.82.pdf",
-    preview={intro_amr.png}
+    preview={intro_amr.png},
+    selected={true}
 }
